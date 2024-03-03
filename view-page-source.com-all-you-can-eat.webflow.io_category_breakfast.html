@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. https://www.webflow.com -->
+<!-- Last Published: Sat Feb 10 2024 20:30:37 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="all-you-can-eat.webflow.io" data-wf-page=
+"65c50041967d1785ea2e1c64" data-wf-site="6084d3ff77a9795ac5ef96ec">
+<head>
+  <meta charset="utf-8">
+  <title>Breakfast Recipes</title>
+  <meta content="Breakfast recipes." name="description">
+  <meta content="Breakfast Recipes" property="og:title">
+  <meta content="Breakfast recipes." property="og:description">
+  <meta content=
+  "https://assets-global.website-files.com/6084d6c15ee1a0d39cd364c8/65c5529d68bbd7317ff4b6cd_web-taylor-kiser-6hxK5l-sHys-unsplash.jpg"
+  property="og:image">
+  <meta content="Breakfast Recipes" property="twitter:title">
+  <meta content="Breakfast recipes." property=
+  "twitter:description">
+  <meta content=
+  "https://assets-global.website-files.com/6084d6c15ee1a0d39cd364c8/65c5529d68bbd7317ff4b6cd_web-taylor-kiser-6hxK5l-sHys-unsplash.jpg"
+  property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name=
+  "viewport">
+  <meta content="Webflow" name="generator">
+  <link href=
+  "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/css/all-you-can-eat.webflow.0ad975608.css"
+  rel="stylesheet" type="text/css">
+  <style>
+  @media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="a3084220-d1d4-5f24-9c15-d1373ffd7c8f"] {-webkit-transform:translate3d(0, 100px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}}
+  </style>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect"
+  crossorigin="anonymous">
+  <script src=
+  "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+  type="text/javascript"></script>
+  <script type="text/javascript">
+  WebFont.load({  google: {    families: ["Syne:regular,500,600,700,800"]  }});
+  </script>
+  <script type="text/javascript">
+  !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
+  </script>
+  <link href=
+  "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c69d4a0954b6c46d454bc4_AYCE-Favicon.jpg"
+  rel="shortcut icon" type="image/x-icon">
+  <link href=
+  "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c69d6b51b96ed0d63b8242_AYCE-WebClip.jpg"
+  rel="apple-touch-icon">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div data-animation="over-left" data-collapse="medium"
+    data-duration="400" data-easing="ease" data-easing2="ease"
+    role="banner" class="navbar w-nav">
+      <section class="banner-announcement background-blue">
+        <div class="container-full-width">
+          <div class="banner-wrapper-announcement">
+            <div class="banner-content-announcement">
+              <a href="/recipes" class=
+              "banner-content-announcement-link-block w-inline-block">
+              <div class="text-size-regular text-color-beige">
+                New recipes added every week!
+              </div></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="padding-global">
+        <div class="container-full-width">
+          <nav role="navigation" class="nav-menu-open w-nav-menu">
+            <a href="#" class="close w-inline-block"><img src=
+            "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c501aa24cfab5014a34acd_ph_x%20xsmall.svg"
+            loading="lazy" alt="" class="icon-1x1-xsmall"></a>
+            <div class="accent text-color-beige">
+              Categories
+            </div>
+            <div class="spacer-medium"></div>
+            <div class=
+            "nav-category-collection-list-wrapper w-dyn-list">
+              <div role="list" class=
+              "nav-category-collection-list w-dyn-items">
+                <div role="listitem" class=
+                "nav-category-collection-item w-dyn-item">
+                  <a href="/category/breakfast" aria-current="page"
+                  class=
+                  "nav-link-category heading-style-h3 w-nav-link w--current">
+                  Breakfast</a>
+                </div>
+                <div role="listitem" class=
+                "nav-category-collection-item w-dyn-item">
+                  <a href="/category/dessert" class=
+                  "nav-link-category heading-style-h3 w-nav-link">Dessert</a>
+                </div>
+                <div role="listitem" class=
+                "nav-category-collection-item w-dyn-item">
+                  <a href="/category/dinner" class=
+                  "nav-link-category heading-style-h3 w-nav-link">Dinner</a>
+                </div>
+                <div role="listitem" class=
+                "nav-category-collection-item w-dyn-item">
+                  <a href="/category/lunch" class=
+                  "nav-link-category heading-style-h3 w-nav-link">Lunch</a>
+                </div>
+                <div role="listitem" class=
+                "nav-category-collection-item w-dyn-item">
+                  <a href="/category/snack" class=
+                  "nav-link-category heading-style-h3 w-nav-link">Snack</a>
+                </div>
+                <div role="listitem" class=
+                "nav-category-collection-item w-dyn-item">
+                  <a href="/category/vegan" class=
+                  "nav-link-category heading-style-h3 w-nav-link">Vegan</a>
+                </div>
+              </div>
+            </div>
+            <div class="spacer-medium"></div>
+            <div class="accent text-color-beige">
+              Links
+            </div>
+            <div class="spacer-medium"></div><a href="#" class=
+            "nav-link heading-style-h4 w-nav-link">About</a><a href="#"
+            class=
+            "nav-link heading-style-h4 w-nav-link">Blog</a><a href=
+            "#" class=
+            "nav-link heading-style-h4 w-nav-link">Contact</a>
+            <div class="spacer-medium"></div>
+          </nav>
+          <div class="nav-container">
+            <div class="menu-button w-nav-button">
+              <div class="nav-menu-wrapper">
+                <img src=
+                "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c501aa24cfab5014a34aca_ph_equals%20xsmall.svg"
+                loading="lazy" alt="" class="icon-1x1-xsmall">
+                <div class=
+                "heading-style-h6 text-color-blue hide-mobile-portrait">
+                  Menu
+                </div>
+              </div>
+            </div><a href="#" class="brand w-nav-brand"><img src=
+            "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c69dd3feeb45d5b023ecb9_ALL%20YOU%20CAN%20EAT.svg"
+            loading="lazy" alt="" class="nav-logo"></a>
+            <form action="/search" data-w-id=
+            "5ae0fac4-1ca2-2565-e43d-2e5cc3b9d98c" class=
+            "search w-form">
+              <div class="search-div"><img src=
+              "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c501aa24cfab5014a34acc_ph_magnifying-glass%20xsmall.svg"
+              loading="lazy" alt="" class="icon-1x1-xsmall"></div>
+              <div class="search-bar">
+                <div class="search-field-wrapper">
+                  <input class="form-field search w-input"
+                  maxlength="256" name="query" placeholder=
+                  "Search…" type="search" id="search" required=
+                  ""><input type="submit" class=
+                  "button-beige-regular button-full-width-mobile w-button"
+                  value="Search">
+                </div><a data-w-id=
+                "5ae0fac4-1ca2-2565-e43d-2e5cc3b9d993" href="#"
+                class="close w-inline-block"><img src=
+                "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c501aa24cfab5014a34acd_ph_x%20xsmall.svg"
+                loading="lazy" alt="" class="icon-1x1-xsmall"></a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main-wrapper">
+      <section class="section-title background-green">
+        <div class="padding-global">
+          <div class="container-full-width">
+            <div class="padding-section-medium">
+              <div class="text-align-left">
+                <h2 data-w-id=
+                "a3084220-d1d4-5f24-9c15-d1373ffd7c76" style=
+                "opacity:0" class="text-color-beige">Breakfast</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-filters background-beige">
+        <div class="padding-global">
+          <div class="container-full-width">
+            <div class="padding-section-custom-2">
+              <div class="align-horizontal-center">
+                <div class=
+                "categories-filters-collection-list-wrapper w-dyn-list">
+                  <div role="list" class=
+                  "categories-filters-collection-list w-dyn-items">
+                    <div role="listitem" class=
+                    "categories-filters-collection-item w-dyn-item">
+                      <a href="/category/breakfast" aria-current=
+                      "page" class=
+                      "categories-filters-wrapper w-inline-block w--current">
+                      <div class="accent">
+                        Breakfast
+                      </div></a>
+                    </div>
+                    <div role="listitem" class=
+                    "categories-filters-collection-item w-dyn-item">
+                      <a href="/category/dessert" class=
+                      "categories-filters-wrapper w-inline-block">
+                      <div class="accent">
+                        Dessert
+                      </div></a>
+                    </div>
+                    <div role="listitem" class=
+                    "categories-filters-collection-item w-dyn-item">
+                      <a href="/category/dinner" class=
+                      "categories-filters-wrapper w-inline-block">
+                      <div class="accent">
+                        Dinner
+                      </div></a>
+                    </div>
+                    <div role="listitem" class=
+                    "categories-filters-collection-item w-dyn-item">
+                      <a href="/category/lunch" class=
+                      "categories-filters-wrapper w-inline-block">
+                      <div class="accent">
+                        Lunch
+                      </div></a>
+                    </div>
+                    <div role="listitem" class=
+                    "categories-filters-collection-item w-dyn-item">
+                      <a href="/category/snack" class=
+                      "categories-filters-wrapper w-inline-block">
+                      <div class="accent">
+                        Snack
+                      </div></a>
+                    </div>
+                    <div role="listitem" class=
+                    "categories-filters-collection-item w-dyn-item">
+                      <a href="/category/vegan" class=
+                      "categories-filters-wrapper w-inline-block">
+                      <div class="accent">
+                        Vegan
+                      </div></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-recipes">
+        <div class="padding-global">
+          <div class="container-full-width">
+            <div class="padding-section-medium">
+              <div class=
+              "recipe-grid-collection-wrapper w-dyn-list">
+                <div role="list" class=
+                "recipe-grid-collection-list w-dyn-items">
+                  <div data-w-id=
+                  "a3084220-d1d4-5f24-9c15-d1373ffd7c8b" style=
+                  "opacity:0" role="listitem" class=
+                  "recipe-collection-item w-dyn-item">
+                    <a href="/recipe/fluffy-pecan-waffles" class=
+                    "recipe-and-post-grid-link-block w-inline-block">
+                    <div class="overflow-hidden-image-container">
+                      <div style=
+                      "background-image:url("https://assets-global.website-files.com/6084d6c15ee1a0d39cd364c8/65c544bd7223f453418513df_65a1a473d09dc9ce5b175eda_web-taylor-kiser-6hxK5l-sHys-unsplash.jpeg")"
+                      class="recipe-grid-image">
+                        <div data-w-id=
+                        "a3084220-d1d4-5f24-9c15-d1373ffd7c8f"
+                        class="button-hover-on-card">
+                        <div class="accent">
+                          view recipe
+                        </div><img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe57_ph_arrow-up-right%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xsmall"></div>
+                      </div>
+                    </div>
+                    <div class="category-badges-wrapper">
+                      <div class="accent category">
+                        Breakfast
+                      </div>
+                      <div class="accent category">
+                        Dessert
+                      </div>
+                    </div>
+                    <div class="icon-tags-wrapper">
+                      <div class="icon-tag-medium">
+                        <img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe56_ph_user%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xxsmall">
+                        <div class=
+                        "text-size-small text-color-green">
+                          4 servings
+                        </div>
+                      </div>
+                      <div class="icon-tag-medium">
+                        <img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe56_ph_user%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xxsmall">
+                        <div class=
+                        "text-size-small text-color-green">
+                          15 min prep
+                        </div>
+                      </div>
+                      <div class="icon-tag-medium">
+                        <img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe56_ph_user%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xxsmall">
+                        <div class=
+                        "text-size-small text-color-green">
+                          20 min cook
+                        </div>
+                      </div>
+                    </div>
+                    <div class="heading-style-h4">
+                      Fluffy Pecan Waffles
+                    </div></a>
+                  </div>
+                  <div data-w-id=
+                  "a3084220-d1d4-5f24-9c15-d1373ffd7c8b" style=
+                  "opacity:0" role="listitem" class=
+                  "recipe-collection-item w-dyn-item">
+                    <a href="/recipe/cinnamon-rolls" class=
+                    "recipe-and-post-grid-link-block w-inline-block">
+                    <div class="overflow-hidden-image-container">
+                      <div style=
+                      "background-image:url("https://assets-global.website-files.com/6084d6c15ee1a0d39cd364c8/65c544bde5fb51c6ffd6feea_65a1a473d09dc9ce5b175ea6_web-lauren-gray-hIVJpzJ45_A-unsplash.jpeg")"
+                      class="recipe-grid-image">
+                        <div data-w-id=
+                        "a3084220-d1d4-5f24-9c15-d1373ffd7c8f"
+                        class="button-hover-on-card">
+                        <div class="accent">
+                          view recipe
+                        </div><img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe57_ph_arrow-up-right%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xsmall"></div>
+                      </div>
+                    </div>
+                    <div class="category-badges-wrapper">
+                      <div class="accent category">
+                        Breakfast
+                      </div>
+                      <div class="accent category">
+                        Dessert
+                      </div>
+                    </div>
+                    <div class="icon-tags-wrapper">
+                      <div class="icon-tag-medium">
+                        <img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe56_ph_user%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xxsmall">
+                        <div class=
+                        "text-size-small text-color-green">
+                          8 servings
+                        </div>
+                      </div>
+                      <div class="icon-tag-medium">
+                        <img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe56_ph_user%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xxsmall">
+                        <div class=
+                        "text-size-small text-color-green">
+                          10 min prep
+                        </div>
+                      </div>
+                      <div class="icon-tag-medium">
+                        <img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe56_ph_user%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xxsmall">
+                        <div class=
+                        "text-size-small text-color-green">
+                          30 min cook
+                        </div>
+                      </div>
+                    </div>
+                    <div class="heading-style-h4">
+                      Cinnamon Rolls
+                    </div></a>
+                  </div>
+                  <div data-w-id=
+                  "a3084220-d1d4-5f24-9c15-d1373ffd7c8b" style=
+                  "opacity:0" role="listitem" class=
+                  "recipe-collection-item w-dyn-item">
+                    <a href="/recipe/best-banana-bread" class=
+                    "recipe-and-post-grid-link-block w-inline-block">
+                    <div class="overflow-hidden-image-container">
+                      <div style=
+                      "background-image:url("https://assets-global.website-files.com/6084d6c15ee1a0d39cd364c8/65c544bd1836c594e23b903d_65a1a473d09dc9ce5b175edb_web-taylor-kiser-mepQiXCXETM-unsplash.jpeg")"
+                      class="recipe-grid-image">
+                        <div data-w-id=
+                        "a3084220-d1d4-5f24-9c15-d1373ffd7c8f"
+                        class="button-hover-on-card">
+                        <div class="accent">
+                          view recipe
+                        </div><img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe57_ph_arrow-up-right%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xsmall"></div>
+                      </div>
+                    </div>
+                    <div class="category-badges-wrapper">
+                      <div class="accent category">
+                        Breakfast
+                      </div>
+                      <div class="accent category">
+                        Dessert
+                      </div>
+                    </div>
+                    <div class="icon-tags-wrapper">
+                      <div class="icon-tag-medium">
+                        <img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe56_ph_user%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xxsmall">
+                        <div class=
+                        "text-size-small text-color-green">
+                          6 servings
+                        </div>
+                      </div>
+                      <div class="icon-tag-medium">
+                        <img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe56_ph_user%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xxsmall">
+                        <div class=
+                        "text-size-small text-color-green">
+                          10 min prep
+                        </div>
+                      </div>
+                      <div class="icon-tag-medium">
+                        <img src=
+                        "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c5550fa992268a096cbe56_ph_user%20xxsmall.svg"
+                        loading="lazy" alt="" class=
+                        "icon-1x1-xxsmall">
+                        <div class=
+                        "text-size-small text-color-green">
+                          30 min cook
+                        </div>
+                      </div>
+                    </div>
+                    <div class="heading-style-h4">
+                      Best Banana Bread
+                    </div></a>
+                  </div>
+                </div>
+                <div role="navigation" aria-label="List" class=
+                "w-pagination-wrapper pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="section-newsletter background-yellow">
+      <div class="padding-global">
+        <div class="container-full-width">
+          <div class="padding-section-medium">
+            <div class=
+            "_2-column-grid-uneven-left align-horizontal-center">
+              <div id=
+              "w-node-_89ca6d36-2afc-c937-9518-361973167260-7316725b"
+              data-w-id="89ca6d36-2afc-c937-9518-361973167260"
+              class="heading-style-h2 text-color-blue">
+                Want more recipes straight to your inbox?
+              </div>
+              <div data-w-id="89ca6d36-2afc-c937-9518-361973167262"
+              class="form-component w-form">
+                <form id="wf-form-Newsletter-Form" name=
+                "wf-form-Newsletter-Form" data-name=
+                "Newsletter Form" method="get" class=
+                "form newsletter" data-wf-page-id=
+                "65c50041967d1785ea2e1c64" data-wf-element-id=
+                "89ca6d36-2afc-c937-9518-361973167263">
+                  <div class="text-size-large text-color-blue">
+                    Sign up for the newsletter.
+                  </div><input class=
+                  "form-field newsletter w-input" maxlength="256"
+                  name="Newsletter-Email-2" data-name=
+                  "Newsletter Email 2" placeholder=
+                  "Enter your email" type="email" id=
+                  "Newsletter-Email-2" required=""><input type=
+                  "submit" data-wait="Please wait..." class=
+                  "button-blue-regular button-full-width w-button"
+                  value="Submit">
+                </form>
+                <div class="success-message w-form-done">
+                  <div class="text-size-regular">
+                    Thank you! Your submission has been received!
+                  </div>
+                </div>
+                <div class="error-message w-form-fail">
+                  <div class="text-size-regular">
+                    Oops! Something went wrong while submitting the
+                    form.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer background-blue">
+      <div class="padding-global">
+        <div class="padding-section-medium">
+          <div class="container-small">
+            <div class="align-vertical-center">
+              <a href="#" class="w-inline-block"><img src=
+              "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c69e19239d4bb1200205b7_ALL%20YOU%20CAN%20EAT-Beige.svg"
+              loading="lazy" alt="" class="footer-logo"></a>
+            </div>
+          </div>
+          <div class="container-full-width">
+            <div class="padding-custom-1">
+              <div class=
+              "footer-micro-links div-block footer-content-wrapper">
+                <div class="footer-links-wrapper">
+                  <a href="/about" class=
+                  "heading-style-h5 text-color-beige">About</a><a href="/blog"
+                  class=
+                  "heading-style-h5 text-color-beige">Blog</a><a href="/contact"
+                  class=
+                  "heading-style-h5 text-color-beige">Contact</a>
+                </div>
+                <div class="social-icons-wrapper">
+                  <a href="https://www.tiktok.com/" target="_blank"
+                  class="w-inline-block"><img src=
+                  "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c501aa24cfab5014a34acf_TikTok-Beige.svg"
+                  loading="lazy" alt="" class=
+                  "icon-1x1-xsmall"></a><a href=
+                  "https://www.instagram.com/" target="_blank"
+                  class="w-inline-block"><img src=
+                  "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c501aa24cfab5014a34ac8_instagram-logo.svg"
+                  loading="lazy" alt="" class=
+                  "icon-1x1-xsmall"></a><a href=
+                  "https://www.pinterest.com/" target="_blank"
+                  class="w-inline-block"><img src=
+                  "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c501aa24cfab5014a34ac6_pinterest-logo.svg"
+                  loading="lazy" alt="" class=
+                  "icon-1x1-xsmall"></a><a href=
+                  "https://www.facebook.com/" target="_blank"
+                  class="w-inline-block"><img src=
+                  "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c501aa24cfab5014a34ac9_facebook-logo.svg"
+                  loading="lazy" alt="" class=
+                  "icon-1x1-xsmall"></a><a href=
+                  "https://twitter.com/" target="_blank" class=
+                  "w-inline-block"><img src=
+                  "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/65c501aa24cfab5014a34ac7_x-logo.svg"
+                  loading="lazy" alt="" class=
+                  "icon-1x1-xsmall"></a>
+                </div>
+              </div>
+              <div class="spacer-xxlarge"></div>
+              <div class=
+              "footer-micro-links div-block footer-content-wrapper text-color-beige">
+                <div>
+                  <a href="/template/template-style-guide" class=
+                  "text-color-beige">Style Guide.</a>
+                   <a href="/template/changelog" class=
+                  "text-color-beige">Changelog.</a>  <a href=
+                  "/template/licenses" class=
+                  "text-color-beige">Licenses.</a>
+                </div>
+                <div>
+                  Website template by <a href=
+                  "https://callistodigitalstudio.com/" target=
+                  "_blank" class="text-color-beige">Callisto
+                  Digital Studio</a>. Powered by <a href=
+                  "https://webflow.com/templates/html/all-you-can-eat-recipe-website-template"
+                  target="_blank" class=
+                  "text-color-beige">Webflow</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src=
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6084d3ff77a9795ac5ef96ec"
+  type="text/javascript" integrity=
+  "sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+  <script src=
+  "https://assets-global.website-files.com/6084d3ff77a9795ac5ef96ec/js/webflow.6ff697ed9.js"
+  type="text/javascript"></script>
+</body>
+</html>
