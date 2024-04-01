@@ -1,0 +1,31 @@
+{
+  "background_color": "#ffffff",
+  "description": "Your favourite African cuisine magazine.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Dygest",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "short_name": "Dygest",
+  "start_url": "/login",
+  "theme_color": "#74ef76",
+  "icons": [
+    {
+      "src": "https://assets-global.website-files.com/61003f4656f603345ac4b0ab/610aa770fb7bea14a19f8c97_favicon-recipes-x-webflow-template-brix-templates.svg",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://assets-global.website-files.com/61003f4656f603345ac4b0ab/610aa774105c440ae9a56284_webclip-recipes-x-webflow-template-brix-templates.svg"
+    },
+    {
+      "src": "https://assets-global.website-files.com/61003f4656f603345ac4b0ab/62d606bbb43387f1ee5b4d9b_open-graph-diet-x-webflow-template.png",
+      "type": "image/png",
+      "sizes": "1800x946"
+    }
+  ],
+  "id": "dygest",
+  "lang": "en",
+  "categories": [
+    "food"
+  ]
+}
